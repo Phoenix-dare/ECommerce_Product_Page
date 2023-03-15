@@ -35,8 +35,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Code](https://github.com/Phoenix-dare/ECommerce_Product_Page)
+- Live Site URL: [Live](e-commerce-product-page-rho-seven.vercel.app)
 
 ## My process
 
