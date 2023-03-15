@@ -1,0 +1,32 @@
+@import './base.css';
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+#app {
+  max-width: 1440px;
+  margin: 0;
+  padding: 0rem;
+  font-family: 'Kumbh Sans', sans-serif;
+  font-weight: normal;
+
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+
+@media screen and (min-width:768px) {
+  main {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 2rem 8rem 0rem 8rem;
+    margin-top: 5rem;
+  }
+
+  header {
+    padding: 0 12rem;
+    margin-top: 3rem;
+  }
+}
