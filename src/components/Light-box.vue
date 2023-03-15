@@ -49,6 +49,7 @@ const nextImage = () => {
 const currentImage = computed(() => images.value[currentImageIndex.value])
 </script>
 
+
 <template>
   <div class="gallery">
     <div v-if="isMobile" class="image-mobile">
