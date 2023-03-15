@@ -36,7 +36,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Code](https://github.com/Phoenix-dare/ECommerce_Product_Page)
-- Live Site URL: [Live](e-commerce-product-page-rho-seven.vercel.app)
+- Live Site URL: [Live](https://stupendous-sunburst-e13102.netlify.app/)
 
 ## My process
 
