@@ -40,7 +40,7 @@ const productQuantity = computed(() => {
     </div>
     <div class="button-container">
       <div class="product-quantity">
-        <button @click="increment(1)" class="add">
+        <button @click="increment(1)" class="add" title="increase-quantity">
           <svg
             width="12"
             height="12"
@@ -59,7 +59,7 @@ const productQuantity = computed(() => {
 
         <span>{{ productQuantity }}</span>
 
-        <button @click="decrement(1)" class="minus">
+        <button @click="decrement(1)" class="minus" title="decrease quantity">
           <svg
             width="12"
             height="4"
