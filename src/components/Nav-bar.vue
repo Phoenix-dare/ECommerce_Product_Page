@@ -94,7 +94,7 @@ const cartItems = computed(() => {
         <div v-if="!cartItems.length" class="empty-cart">Your cart is empty</div>
         <div v-else>
           <div v-for="(item, index) in cartItems" :key="index" class="cart-product">
-            <img src="../assets/images/image-product-1-thumbnail.jpg" alt="product-image" />
+            <img src="/image-product-1-thumbnail.jpg" alt="product-image" />
             <div>
               <span class="item-name"> {{ item.item }} </span>
               <div>

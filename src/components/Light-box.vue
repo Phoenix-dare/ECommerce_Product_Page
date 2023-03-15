@@ -5,20 +5,20 @@ const props = defineProps({ isMobile: Boolean })
 
 const images = ref([
   {
-    src: '../../public/image-product-1.jpg',
-    thumbnail: '../../public/image-product-1-thumbnail.jpg'
+    src: '/image-product-1.jpg',
+    thumbnail: '/image-product-1-thumbnail.jpg'
   },
   {
-    src: '../../public/image-product-2.jpg',
-    thumbnail: '../../public/image-product-2-thumbnail.jpg'
+    src: '/image-product-2.jpg',
+    thumbnail: '/image-product-2-thumbnail.jpg'
   },
   {
-    src: '../../public/image-product-3.jpg',
-    thumbnail: '../../public/image-product-3-thumbnail.jpg'
+    src: '/image-product-3.jpg',
+    thumbnail:'/image-product-3-thumbnail.jpg'
   },
   {
-    src: '../../public/image-product-4.jpg',
-    thumbnail:'../../public/image-product-4-thumbnail.jpg'
+    src: '/image-product-4.jpg',
+    thumbnail:'/image-product-4-thumbnail.jpg'
   }
 ])
 const isLightboxOpen = ref(false)
